@@ -17,17 +17,20 @@ A Firebase & jQuery based javascript component to let you to be able to check st
 
 The following database structure is desired:
 
+```
 "tgg-api": {
   "postcode-api": {}, //Return all suburbs under each postcode
   "store-api": {}, //All stores listed base on postcode
   "store-detail-api": {}, //Store detail for each store
   "suburb-api": {} //Return postcodes for all exsiting suburb name
 }
+```
 
 For example data structre please refer to api.json
 
 ### Config Firebase connection on your page
 
+```
 var config = {
     apiKey: "*******",
     authDomain: "***.firebaseapp.com",
@@ -37,11 +40,10 @@ var config = {
     messagingSenderId: "***"
 };
 firebase.initializeApp(config);
+```
 
 ### How to use git to contribute or get updates?
 
 Have a quick read through [The simple guide to GIT](http://rogerdudler.github.io/git-guide/) before proceeding.
 
 *NOTE: Ensure that you are aware if any branches in use, always make sure you are working in the correct branch. If you're using Cmder it will tell you what branch you're in in brackets at the end of your path.
-
-Last Update 22.Feb.2018
