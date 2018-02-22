@@ -1,175 +1,179 @@
 {
-	"tgg-api": {
-		"store-api": {
-			"3000":[ {
-			    "name" : "Maribyrnong",
-			    "id": "006",
-			    "latitude" : "-37.77427",
-			    "longitude" : "144.88462"
-			  }, {
-			    "name" : "Northland",
-			    "id": "011",
-			    "latitude" : "-37.74205",
-			    "longitude" : "145.02747"
-			  }, {
-			    "name" : "Essendon",
-			    "id": "003",
-			    "latitude" : "-37.73285",
-			    "longitude" : "144.90455"
-			  }
-			 ]
-		},
-		"store-detail-api": {
-			"003":
-			    {
-			        "name": "Essendon",
-			        "address": "Tenancy 20, Building 4",
-			        "suburb": "Essendon Airport",
-			        "postcode": "3041",
-			        "state": "VIC",
-			        "phone": "03 93745100",
-			        "lat": "-37.73285",
-			        "lng": "144.90455",
-			        "email_address": "essendon@thegoodguys.com.au",
-			        "trading_hours": [
-			        {
-			            "day": "Monday",
-			            "open": "10:00",
-			            "close": "6:00"
-			        },
-			        {
-			            "day": "Tuesday",
-			            "open": "10:00",
-			            "close": "6:00"
-			        },
-			        {
-			            "day": "Wednesday",
-			            "open": "10:00",
-			            "close": "6:00"
-			        },
-			        {
-			            "day": "Thursday",
-			            "open": "10:00",
-			            "close": "6:00"
-			        },
-			        {
-			            "day": "Friday",
-			            "open": "10:00",
-			            "close": "6:00"
-			        },
-			        {
-			            "day": "Saturday",
-			            "open": "10:00",
-			            "close": "6:00"
-			        },
-			        {
-			            "day": "Sunday",
-			            "open": "10:00",
-			            "close": "6:00"
-			        }],
-			        "info_notice": "",
-			        "exception": [
-			        {
-			            "date": "2018-02-15",
-			            "event": "Test Day 1 Special Hours",
-			            "open": "14:00",
-			            "close": "23:59",
-			            "day": "Thursday"
-			        },
-			        {
-			            "date": "2018-02-16",
-			            "event": "Test Day 2 Special Hours",
-			            "open": "0",
-			            "close": "0",
-			            "day": "Friday"
-			        },
-			        {
-			            "date": "2018-02-19",
-			            "event": "Test Day 4 Special Hours",
-			            "open": "0",
-			            "close": "0",
-			            "day": "Monday"
-			        },
-			        {
-			            "date": "2018-02-21",
-			            "event": "Test Day 5 Special Hours",
-			            "open": "0",
-			            "close": "0",
-			            "day": "Wednesday"
-			        }
-			    	]
-			    }
-		},
-		"suburb-api": {
-			"DARWIN":["0800"],
-			"ALAWA":["0810"],
-			"BRINKIN":["0810"],
-			"CASUARINA":["0810", "2487", "6167"],
-			"COCONUT_GROVE":["0810"],
-			"JINGILI":["0810"],
-			"LEE_POINT":["0810"],
-			"LYONS":["0810", "2606", "3304", "4124"],
-			"MILLNER":["0810"],
-			"MOIL":["0810"],
-			"MUIRHEAD":["0810"],
-			"NAKARA":["0810"],
-			"NIGHTCLIFF":["0810"],
-			"RAPID_CREEK":["0810"]
-		},
-		"postcode-api": {
-			"2000": [
-			      {
-			         "suburb": "BARANGAROO",
-			         "long": "151.2015",
-			         "lat": "-33.8614",
-			         "store": "Artarmon",    
-			         "jurst": "METRO"
-			      },
-			      {
-			         "suburb": "DAWES POINT",
-			         "long": "151.2069",
-			         "lat": "-33.8565",
-			         "store": "Artarmon",    
-			         "jurst": "METRO"
-			      },
-			      {
-			         "suburb": "HAYMARKET",
-			         "long": "151.2045",
-			         "lat": "-33.8814",
-			         "store": "Alexandria",    
-			         "jurst": "METRO"
-			      },
-			      {
-			         "suburb": "MILLERS POINT",
-			         "long": "151.2042",
-			         "lat": "-33.8598",
-			         "store": "Artarmon",    
-			         "jurst": "METRO"
-			      },
-			      {
-			         "suburb": "SYDNEY",
-			         "long": "151.2099",
-			         "lat": "-33.8697",
-			         "store": "Alexandria",    
-			         "jurst": "METRO"
-			      },
-			      {
-			         "suburb": "THE ROCKS",
-			         "long": "151.208",
-			         "lat": "-33.8592",
-			         "store": "Artarmon",    
-			         "jurst": "METRO"
-			      }
-			   ],
-			   "2007": [
-			      {
-			         "suburb": "ULTIMO",
-			         "long": "151.1984",
-			         "lat": "-33.8799",
-			         "store": "Alexandria",    
-			         "jurst": "METRO"
-			      }
-			   ]
-		}
-	}
+    "tgg-api":
+    {
+        "store-api":
+        {
+            "3000": [
+            {
+                "name": "Maribyrnong",
+                "id": "006",
+                "latitude": "-37.77427",
+                "longitude": "144.88462"
+            },
+            {
+                "name": "Northland",
+                "id": "011",
+                "latitude": "-37.74205",
+                "longitude": "145.02747"
+            },
+            {
+                "name": "Essendon",
+                "id": "003",
+                "latitude": "-37.73285",
+                "longitude": "144.90455"
+            }]
+        },
+        "store-detail-api":
+        {
+            "003":
+            {
+                "name": "Essendon",
+                "address": "Tenancy 20, Building 4",
+                "suburb": "Essendon Airport",
+                "postcode": "3041",
+                "state": "VIC",
+                "phone": "03 93745100",
+                "lat": "-37.73285",
+                "lng": "144.90455",
+                "email_address": "essendon@thegoodguys.com.au",
+                "trading_hours": [
+                {
+                    "day": "Monday",
+                    "open": "10:00",
+                    "close": "6:00"
+                },
+                {
+                    "day": "Tuesday",
+                    "open": "10:00",
+                    "close": "6:00"
+                },
+                {
+                    "day": "Wednesday",
+                    "open": "10:00",
+                    "close": "6:00"
+                },
+                {
+                    "day": "Thursday",
+                    "open": "10:00",
+                    "close": "6:00"
+                },
+                {
+                    "day": "Friday",
+                    "open": "10:00",
+                    "close": "6:00"
+                },
+                {
+                    "day": "Saturday",
+                    "open": "10:00",
+                    "close": "6:00"
+                },
+                {
+                    "day": "Sunday",
+                    "open": "10:00",
+                    "close": "6:00"
+                }],
+                "info_notice": "",
+                "exception": [
+                {
+                    "date": "2018-02-15",
+                    "event": "Test Day 1 Special Hours",
+                    "open": "14:00",
+                    "close": "23:59",
+                    "day": "Thursday"
+                },
+                {
+                    "date": "2018-02-16",
+                    "event": "Test Day 2 Special Hours",
+                    "open": "0",
+                    "close": "0",
+                    "day": "Friday"
+                },
+                {
+                    "date": "2018-02-19",
+                    "event": "Test Day 4 Special Hours",
+                    "open": "0",
+                    "close": "0",
+                    "day": "Monday"
+                },
+                {
+                    "date": "2018-02-21",
+                    "event": "Test Day 5 Special Hours",
+                    "open": "0",
+                    "close": "0",
+                    "day": "Wednesday"
+                }]
+            }
+        },
+        "suburb-api":
+        {
+            "DARWIN": ["0800"],
+            "ALAWA": ["0810"],
+            "BRINKIN": ["0810"],
+            "CASUARINA": ["0810", "2487", "6167"],
+            "COCONUT_GROVE": ["0810"],
+            "JINGILI": ["0810"],
+            "LEE_POINT": ["0810"],
+            "LYONS": ["0810", "2606", "3304", "4124"],
+            "MILLNER": ["0810"],
+            "MOIL": ["0810"],
+            "MUIRHEAD": ["0810"],
+            "NAKARA": ["0810"],
+            "NIGHTCLIFF": ["0810"],
+            "RAPID_CREEK": ["0810"]
+        },
+        "postcode-api":
+        {
+            "2000": [
+            {
+                "suburb": "BARANGAROO",
+                "long": "151.2015",
+                "lat": "-33.8614",
+                "store": "Artarmon",
+                "jurst": "METRO"
+            },
+            {
+                "suburb": "DAWES POINT",
+                "long": "151.2069",
+                "lat": "-33.8565",
+                "store": "Artarmon",
+                "jurst": "METRO"
+            },
+            {
+                "suburb": "HAYMARKET",
+                "long": "151.2045",
+                "lat": "-33.8814",
+                "store": "Alexandria",
+                "jurst": "METRO"
+            },
+            {
+                "suburb": "MILLERS POINT",
+                "long": "151.2042",
+                "lat": "-33.8598",
+                "store": "Artarmon",
+                "jurst": "METRO"
+            },
+            {
+                "suburb": "SYDNEY",
+                "long": "151.2099",
+                "lat": "-33.8697",
+                "store": "Alexandria",
+                "jurst": "METRO"
+            },
+            {
+                "suburb": "THE ROCKS",
+                "long": "151.208",
+                "lat": "-33.8592",
+                "store": "Artarmon",
+                "jurst": "METRO"
+            }],
+            "2007": [
+            {
+                "suburb": "ULTIMO",
+                "long": "151.1984",
+                "lat": "-33.8799",
+                "store": "Alexandria",
+                "jurst": "METRO"
+            }]
+        }
+    }
 }
