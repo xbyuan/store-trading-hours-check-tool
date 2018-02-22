@@ -400,7 +400,7 @@ function displayStores(stores) {
         var res = [];
         $.each(exception, function(i, val){
             if(isBetweenDay(val.date)){
-                res.push(val)
+                res.push(val);
             }
         });
         var isException = (res.length > 0) ? res : false;
@@ -446,7 +446,7 @@ $("#quitStoreLocater").click(function() {
     $(".store-locater").removeClass('list-expand');
     $("#hoursBanner").delay("1000").show();
     $("#noStoreAlert").remove();
-    $("#getStoreLocator").val("")
+    $("#getStoreLocator").val("");
     hideDropDown();
     clearSuggList();
 });
