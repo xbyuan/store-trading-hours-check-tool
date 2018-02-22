@@ -1,6 +1,6 @@
 # Store Trading Hours Check Tool
 
-A Firebase & jQuery based javascript component to let you be able to check store trading hours near you.
+A Firebase & jQuery based javascript component to let you to be able to check store trading hours near you.
 
 ## How do I get set up? ##
 
